@@ -6,7 +6,7 @@ const myPeer = new Peer(undefined, {
     port: '3001'
 })
 myVideo.muted = true
-
+myVideo.controls = true
 const peers = {}
 
 navigator.mediaDevices.getUserMedia({
