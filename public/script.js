@@ -2,7 +2,7 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myVideo = document.createElement('video')
 const myPeer = new Peer(undefined, {
-    host: 'https://prox-vid.herokuapp.com/',
+    host: '/',
     port: '9000'
 })
 myVideo.muted = true
