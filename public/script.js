@@ -59,4 +59,6 @@ function connectToNewUser(userId, stream) {
       video.play()
     })
     videoGrid.append(video)
+
+    
   }

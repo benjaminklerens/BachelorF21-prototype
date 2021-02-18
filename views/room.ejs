@@ -12,10 +12,23 @@
     <script src="script.js" defer></script>
     
 <style>
+    html {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, #336699 15%, #3366cc 78%);
+    }
+
     #video-grid {
+        margin: auto;
+        width: 750px;
+        height: 750px;
+        background-color: rgba(21, 21, 46, 0.349);
         display: grid;
-        grid-template-columns: repeat(auto-fill, 300px);
-        grid-auto-rows: 300px;
+        grid-template-columns: 235px 235px 235px; 
+        grid-template-rows: 235px 235px 235px;
+        grid-gap: 4px;
+        justify-content: center;
+        align-content: center
 
     }
 
@@ -29,6 +42,7 @@
 
 </head>
 <body>
+    <h1 style="text-align:center">Coffee Break</h1>
     <div id="video-grid"></div>    
 </body>
 </html>
