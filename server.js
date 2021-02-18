@@ -29,6 +29,6 @@ io.on('connection', socket => {
     })
 })
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 server.listen(port) 
