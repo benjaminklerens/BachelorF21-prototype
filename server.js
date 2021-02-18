@@ -29,6 +29,5 @@ io.on('connection', socket => {
     })
 })
 
-
-
-server.listen(80) 
+const port = process.env.PORT || 80;
+server.listen(port) 
