@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "node server.js & peerjs --port 9000"
+    "start": "node server.js & peerjs --port 9000"
   },
   "keywords": [],
   "author": "",
