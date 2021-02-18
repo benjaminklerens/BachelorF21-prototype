@@ -1,2 +1,1 @@
-web: npm devStart
-web: peerjs --port 3001
+web: npm run
